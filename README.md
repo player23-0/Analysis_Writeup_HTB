@@ -16,11 +16,12 @@ Key findings during the exploitation phase included identifying vulnerable web p
 
 The privilege escalation could be done two different ways:
 
-1. **Snort DLL Hijacking:** Leveraged writable directories and misconfigurations in the Snort application to execute a custom DLL.
-2. **API Hooking - DLL Injection:** Demonstrated how to capture plaintext passwords by hooking into API calls using a custom DLL and injector.
+1. **Snort DLL Hijacking:** Leveraged writable directories and misconfigurations in the Snort application to execute a custom DLL. (unintended route)
+2. **API Hooking - DLL Injection:** Demonstrated how to capture plaintext passwords by hooking into API calls using a custom DLL and injector. (intended route)
+
 
 ### Here is my github repo for BCTextEncoder_DLL_injection:
-    - https://github.com/player23-0/BCTextEncoder_DLL_injection
+    https://github.com/player23-0/BCTextEncoder_DLL_injection
 
 ## Conclusion
 
